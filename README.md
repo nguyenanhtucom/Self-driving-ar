@@ -8,5 +8,7 @@ Ubuntu 18.04
   Python 3.6
 
   TensorFlow 1.8
+  
   Keras 2.2.4
+  
   ROS2 Crystal + rosbridge
