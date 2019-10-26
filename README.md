@@ -1,5 +1,5 @@
 ## Setup
-Ubuntu 18.04
+  Ubuntu 18.04
 
   CUDA 9.2
 
@@ -12,13 +12,3 @@ Ubuntu 18.04
   Keras 2.2.4
   
   ROS2 Crystal + rosbridge
-
-Step 1: Update and Upgrade your system:
-
-sudo apt-get update 
-
-sudo apt-get upgrade
-
-Step 2: Verify You Have a CUDA-Capable GPU:
-
-lspci | grep -i nvidia
