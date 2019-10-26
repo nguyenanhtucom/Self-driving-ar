@@ -55,15 +55,16 @@ if you get `NVIDIA-SMI has failed because it couldn't communicate with the NVIDI
 
 ## 3. Download CUDA from NVidia
 
-https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux
-Get CUDA from [NVIDIA](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704)
+https://developer.nvidia.com/cuda-92-download-archive?target_os=Linux
+https://developer.nvidia.com/compute/cuda/9.2/Prod2/local_installers/cuda_9.2.148_396.37_linux
+Get CUDA from [NVIDIA](https://developer.nvidia.com/compute/cuda/9.2/Prod2/local_installers/cuda_9.2.148_396.37_linux)
 
-Get CUDA 9.0, select Linux, x86_64, Ubuntu, select the 17.04 version and "runfile(local)". See [1].
+Get CUDA 9.2, select Linux, x86_64, Ubuntu, select the 17.04 version and "runfile(local)". See [1].
 
 ```
 wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_384.81_linux-run
 
-sudo sh cuda_9.0.176_384.81_linux.run --override
+sudo sh cuda_9.2.148_396.37_linux.run --override
 ```
 
 
